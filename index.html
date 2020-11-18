@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day-Planner</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work Day Scheduler</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/f53a07ee43.js" crossorigin="anonymous"></script>
-</head>
+    <script src="https://kit.fontawesome.com/2ceed62c3c.js" crossorigin="anonymous"></script>
+    
+    
+  </head>
 <body>
       <!-- Header goes here -->
       <header>
-        <h1 class="title">Work Day Planner</h1>
+        <h1 class="title">Day Planner</h1>
         <h2 class="date" id="date"></h2>
       </header>
   
-      <!-- Main content go here -->
+      <!-- Main content goes here -->
       <div class="main-content">
         <div class="planner-container">
           <div class="time-slot">
@@ -35,35 +38,40 @@
           </div>
           <div class="time-slot">
             <div class="time">12:00 AM</div>
-            <textarea class="content" id="12pm">Lunch</textarea>
+            <textarea class="content" id="12pm"></textarea>
             <div class="save" id="saveTwelve"><i class="far fa-save"></i></div>
           </div>
           <div class="time-slot">
             <div class="time">1:00 PM</div>
-            <textarea class="content" id="1pm">Work</textarea>
+            <textarea class="content" id="1pm"></textarea>
             <div class="save" id="saveOne"><i class="far fa-save"></i></div>
           </div>
           <div class="time-slot">
             <div class="time">2:00 PM</div>
-            <textarea class="content" id="2pm">Work</textarea>
+            <textarea class="content" id="2pm"></textarea>
             <div class="save" id="saveTwo"><i class="far fa-save"></i></div>
           </div>
           <div class="time-slot">
             <div class="time">3:00 PM</div>
-            <textarea class="content" id="3pm">Meeting</textarea>
+            <textarea class="content" id="3pm"></textarea>
             <div class="save" id="saveThree"><i class="far fa-save"></i></div>
           </div>
           <div class="time-slot">
             <div class="time">4:00 PM</div>
-            <textarea class="content" id="4pm">Work</textarea>
+            <textarea class="content" id="4pm"></textarea>
             <div class="save" id="saveFour"><i class="far fa-save"></i></div>
           </div>
           <div class="time-slot">
             <div class="time">5:00 PM</div>
-            <textarea class="content" id="5pm">Work</textarea>
+            <textarea class="content" id="5pm"></textarea>
             <div class="save" id="saveFive"><i class="far fa-save"></i></div>
           </div>
         </div>
-      </div>  
+      </div> 
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <!--<script>src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es-us.js"</script>-->
+      <script src="script.js"></script>
 </body>
 </html>
