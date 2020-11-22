@@ -16,7 +16,7 @@ header::after{
   z-index: -1;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Tahoma, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -60,29 +60,34 @@ p.lead{
 }
 
 .content{
-  width: 80%;
+  width: 85%;
   text-align: left;
   padding-left: 1rem;
   padding-top: 1rem;
   background: lightgreen;
-  border-right: 1px solid lightgrey;
-  border-top: 1px solid lightgrey;
-  font-family: Arial, Helvetica, sans-serif;  
+  border: 1px solid lightgrey;
+  font-family: Tahoma, sans-serif;  
   font-size: 14px;
 }
 
-.save{
-  width: 10%;
+.saveBtn{
+  width: 5%;
   text-align: center;
   padding-top: 1.5rem;
-  border-radius: 4px;
-  background: #f77070;
+  border-radius: 3px;
+  background: #f77070; 
   border-bottom: 1px solid lightgrey;
   cursor: pointer;
+  float: right;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
 }
 
 .planner-container{
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   background: white;
@@ -95,3 +100,21 @@ p.lead{
 .time-slot{
   display: flex;
 }
+
+.past {
+  background-color: #ff0505;
+  color: white;s
+}
+
+.present {
+  background-color: #1f0270;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+
+
