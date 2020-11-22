@@ -21,17 +21,62 @@
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
+<br>
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
-
+     <div class="main-content">
+        <div class="planner-container">
+          <div class="time-slot">
+            <div class="time">9:00 AM</div>
+            <textarea class="content" id="9am"></textarea>
+            <div class="save" id="saveNine"><i class="far fa-save"></i></div>
+          </div>
+          <div class="time-slot">
+            <div class="time">10:00 AM</div>
+            <textarea class="content" id="10am"></textarea>
+            <div class="save" id="saveTen"><i class="far fa-save"></i></div>
+          </div>
+          <div class="time-slot">
+            <div class="time">11:00 AM</div>
+            <textarea class="content" id="11am"></textarea>
+            <div class="save" id="saveEleven"><i class="far fa-save"></i></div>
+          </div>
+          <div class="time-slot">
+            <div class="time">12:00 AM</div>
+            <textarea class="content" id="12pm"></textarea>
+            <div class="save" id="saveTwelve"><i class="far fa-save"></i></div>
+          </div>
+          <div class="time-slot">
+            <div class="time">1:00 PM</div>
+            <textarea class="content" id="1pm"></textarea>
+            <div class="save" id="saveOne"><i class="far fa-save"></i></div>
+          </div>
+          <div class="time-slot">
+            <div class="time">2:00 PM</div>
+            <textarea class="content" id="2pm"></textarea>
+            <div class="save" id="saveTwo"><i class="far fa-save"></i></div>
+          </div>
+          <div class="time-slot">
+            <div class="time">3:00 PM</div>
+            <textarea class="content" id="3pm"></textarea>
+            <div class="save" id="saveThree"><i class="far fa-save"></i></div>
+          </div>
+          <div class="time-slot">
+            <div class="time">4:00 PM</div>
+            <textarea class="content" id="4pm"></textarea>
+            <div class="save" id="saveFour"><i class="far fa-save"></i></div>
+          </div>
+          <div class="time-slot">
+            <div class="time">5:00 PM</div>
+            <textarea class="content" id="5pm"></textarea>
+            <div class="save" id="saveFive"><i class="far fa-save"></i></div>
+          </div>
+        </div>
+      </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
