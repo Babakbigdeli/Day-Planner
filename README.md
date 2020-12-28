@@ -27,7 +27,7 @@ This application keeps track of your daily schedule and allows you to to save it
 
 	. Babak Bigdeli
 
-* [Screenshot of Day Planner](https://github.com/Babakbigdeli/Weather-Dashboard/blob/main/Screenshot.JPG)
+* [Screenshot of Day Planner](https://github.com/Babakbigdeli/Day-Planner/blob/main/Screenshot.JPG)
 * [Link to deployed app](https://babakbigdeli.github.io/Day-Planner/)
 
 **Babak Bigdeli**
